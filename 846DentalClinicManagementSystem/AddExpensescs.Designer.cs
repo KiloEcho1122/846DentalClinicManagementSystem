@@ -34,13 +34,10 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddExpensescs));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddExpensescs));
             this.ExpenseDG = new Bunifu.Framework.UI.BunifuCustomDataGrid();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.TopPanel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
@@ -49,6 +46,9 @@
             this.btn_SaveExpenses = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btn_DeleteExpense = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btn_AddRows = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.ExpenseDG)).BeginInit();
             this.TopPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -113,35 +113,6 @@
             this.ExpenseDG.Size = new System.Drawing.Size(623, 285);
             this.ExpenseDG.TabIndex = 72;
             this.ExpenseDG.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ExpenseDG_CellClick);
-            // 
-            // Column1
-            // 
-            dataGridViewCellStyle10.Format = "d";
-            dataGridViewCellStyle10.NullValue = null;
-            this.Column1.DefaultCellStyle = dataGridViewCellStyle10;
-            this.Column1.FillWeight = 35.7868F;
-            this.Column1.HeaderText = "Date";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            this.Column1.Width = 150;
-            // 
-            // Column2
-            // 
-            this.Column2.FillWeight = 228.4264F;
-            this.Column2.HeaderText = "Expense";
-            this.Column2.Name = "Column2";
-            this.Column2.Width = 315;
-            // 
-            // Column3
-            // 
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle11.Format = "N2";
-            this.Column3.DefaultCellStyle = dataGridViewCellStyle11;
-            this.Column3.FillWeight = 35.7868F;
-            this.Column3.HeaderText = "Amount";
-            this.Column3.Name = "Column3";
-            this.Column3.ToolTipText = "Enter Amount";
-            this.Column3.Width = 120;
             // 
             // bunifuElipse1
             // 
@@ -225,7 +196,7 @@
             this.btn_SaveExpenses.Text = "SAVE";
             this.btn_SaveExpenses.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_SaveExpenses.Textcolor = System.Drawing.Color.Black;
-            this.btn_SaveExpenses.TextFont = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_SaveExpenses.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.btn_SaveExpenses.Click += new System.EventHandler(this.btn_SaveExpenses_Click);
             // 
             // btn_DeleteExpense
@@ -260,7 +231,7 @@
             this.btn_DeleteExpense.Text = "DELETE ROW";
             this.btn_DeleteExpense.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn_DeleteExpense.Textcolor = System.Drawing.Color.Black;
-            this.btn_DeleteExpense.TextFont = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_DeleteExpense.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.btn_DeleteExpense.Click += new System.EventHandler(this.btn_DeleteExpense_Click);
             // 
             // btn_AddRows
@@ -295,8 +266,37 @@
             this.btn_AddRows.Text = "ADD ROW";
             this.btn_AddRows.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_AddRows.Textcolor = System.Drawing.Color.Black;
-            this.btn_AddRows.TextFont = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_AddRows.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.btn_AddRows.Click += new System.EventHandler(this.btn_AddRows_Click);
+            // 
+            // Column1
+            // 
+            dataGridViewCellStyle10.Format = "d";
+            dataGridViewCellStyle10.NullValue = null;
+            this.Column1.DefaultCellStyle = dataGridViewCellStyle10;
+            this.Column1.FillWeight = 35.7868F;
+            this.Column1.HeaderText = "Date";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            this.Column1.Width = 150;
+            // 
+            // Column2
+            // 
+            this.Column2.FillWeight = 228.4264F;
+            this.Column2.HeaderText = "Expenses";
+            this.Column2.Name = "Column2";
+            this.Column2.Width = 315;
+            // 
+            // Column3
+            // 
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle11.Format = "N2";
+            this.Column3.DefaultCellStyle = dataGridViewCellStyle11;
+            this.Column3.FillWeight = 35.7868F;
+            this.Column3.HeaderText = "Amount";
+            this.Column3.Name = "Column3";
+            this.Column3.ToolTipText = "Enter Amount";
+            this.Column3.Width = 120;
             // 
             // AddExpensescs
             // 

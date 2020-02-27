@@ -276,7 +276,7 @@
             this.btn_cancelException.BackColor = System.Drawing.Color.LightGoldenrodYellow;
             this.btn_cancelException.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_cancelException.BorderRadius = 0;
-            this.btn_cancelException.ButtonText = "Cancel Exception";
+            this.btn_cancelException.ButtonText = "CANCEL EXCEPTION";
             this.btn_cancelException.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_cancelException.DisabledColor = System.Drawing.Color.Gray;
             this.btn_cancelException.Iconcolor = System.Drawing.Color.Transparent;
@@ -299,10 +299,10 @@
             this.btn_cancelException.selected = false;
             this.btn_cancelException.Size = new System.Drawing.Size(137, 38);
             this.btn_cancelException.TabIndex = 48;
-            this.btn_cancelException.Text = "Cancel Exception";
+            this.btn_cancelException.Text = "CANCEL EXCEPTION";
             this.btn_cancelException.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_cancelException.Textcolor = System.Drawing.Color.Black;
-            this.btn_cancelException.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_cancelException.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.btn_cancelException.Visible = false;
             this.btn_cancelException.Click += new System.EventHandler(this.btn_cancelException_Click);
             // 
@@ -312,7 +312,7 @@
             this.btn_add.BackColor = System.Drawing.Color.LightGoldenrodYellow;
             this.btn_add.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_add.BorderRadius = 0;
-            this.btn_add.ButtonText = "Add";
+            this.btn_add.ButtonText = "ADD";
             this.btn_add.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_add.DisabledColor = System.Drawing.Color.Gray;
             this.btn_add.Iconcolor = System.Drawing.Color.Transparent;
@@ -335,10 +335,10 @@
             this.btn_add.selected = false;
             this.btn_add.Size = new System.Drawing.Size(137, 38);
             this.btn_add.TabIndex = 49;
-            this.btn_add.Text = "Add";
+            this.btn_add.Text = "ADD";
             this.btn_add.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_add.Textcolor = System.Drawing.Color.Black;
-            this.btn_add.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_add.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.btn_add.Click += new System.EventHandler(this.btn_add_Click);
             // 
             // AddException

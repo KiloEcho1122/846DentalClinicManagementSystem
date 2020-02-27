@@ -99,14 +99,14 @@
             // 
             this.btn_AddBilling.BackColor = System.Drawing.Color.LightGoldenrodYellow;
             this.btn_AddBilling.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_AddBilling.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_AddBilling.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.btn_AddBilling.ForeColor = System.Drawing.Color.Black;
             this.btn_AddBilling.Location = new System.Drawing.Point(259, 143);
             this.btn_AddBilling.Margin = new System.Windows.Forms.Padding(0);
             this.btn_AddBilling.Name = "btn_AddBilling";
             this.btn_AddBilling.Size = new System.Drawing.Size(111, 42);
             this.btn_AddBilling.TabIndex = 65;
-            this.btn_AddBilling.Text = "Add";
+            this.btn_AddBilling.Text = "ADD";
             this.btn_AddBilling.UseVisualStyleBackColor = false;
             this.btn_AddBilling.Click += new System.EventHandler(this.btn_AddBilling_Click);
             this.btn_AddBilling.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btn_AddBilling_KeyDown);

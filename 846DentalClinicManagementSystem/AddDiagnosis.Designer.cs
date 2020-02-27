@@ -180,7 +180,7 @@
             this.btn_print.BackColor = System.Drawing.Color.LightGoldenrodYellow;
             this.btn_print.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_print.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_print.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_print.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.btn_print.ForeColor = System.Drawing.Color.Black;
             this.btn_print.Location = new System.Drawing.Point(305, 201);
             this.btn_print.Margin = new System.Windows.Forms.Padding(0);

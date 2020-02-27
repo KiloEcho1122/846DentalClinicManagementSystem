@@ -322,7 +322,7 @@
             this.btn_close.Text = "CLOSE";
             this.btn_close.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_close.Textcolor = System.Drawing.Color.Black;
-            this.btn_close.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_close.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
             // 
             // btn_add
@@ -331,7 +331,7 @@
             this.btn_add.BackColor = System.Drawing.Color.LightGoldenrodYellow;
             this.btn_add.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_add.BorderRadius = 0;
-            this.btn_add.ButtonText = "Add";
+            this.btn_add.ButtonText = "ADD";
             this.btn_add.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_add.DisabledColor = System.Drawing.Color.Gray;
             this.btn_add.Iconcolor = System.Drawing.Color.Transparent;
@@ -354,10 +354,10 @@
             this.btn_add.selected = false;
             this.btn_add.Size = new System.Drawing.Size(117, 48);
             this.btn_add.TabIndex = 39;
-            this.btn_add.Text = "Add";
+            this.btn_add.Text = "ADD";
             this.btn_add.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_add.Textcolor = System.Drawing.Color.Black;
-            this.btn_add.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_add.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.btn_add.Click += new System.EventHandler(this.btn_add_Click);
             // 
             // txt_ContactNo
